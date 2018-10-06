@@ -1,0 +1,6 @@
+{
+"datacenter": "demo",
+"client_addr":"0.0.0.0",
+"data_dir":"/var/lib/consul/",
+"retry_join":["provider=gce project_name=skywiz-sandbox tag_value=consul-server zone_pattern=us-central.*"]
+}
